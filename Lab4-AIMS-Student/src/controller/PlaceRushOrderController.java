@@ -61,7 +61,7 @@ public class PlaceRushOrderController extends PlaceOrderController{
         }
         return true;
     }
-    //Vu Trong Duc - 20183894
+
     /**
      * Method kiem tra tinh hop le cua thong tin ngay giao hang
      * @param date ngay giao hang
@@ -78,7 +78,7 @@ public class PlaceRushOrderController extends PlaceOrderController{
         }
         return true;
     }
-    //Vu Trong Duc - 20183894
+
     /**
      * Method tinh phi van chuyen cho don giao hang nhanh
      * @param order don hang
