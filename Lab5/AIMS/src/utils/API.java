@@ -20,14 +20,14 @@ import java.util.logging.Logger;
 
 /**
  * Represent an API call
- * @author sonnh
+ * @author linhnt
  * @version 1.1
  * Date: 12/7/2021
  */
 public class API{
 
     /**
-     * A date formatter to format all date to yyyy/MM/dd HH:mm:ss SONNH
+     * A date formatter to format all date to yyyy/MM/dd HH:mm:ss LINHNT
      */
     public static DateFormat DATE_FORMATER = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
@@ -37,7 +37,7 @@ public class API{
     private static final Logger LOGGER = Utils.getLogger(Utils.class.getName());
 
     /**
-     * Get API SONNH
+     * Get API LINHNT
      *
      * @param url   url of api
      * @param token secret token
@@ -56,7 +56,7 @@ public class API{
     int var;
 
     /**
-     * post APi SONNH
+     * post APi LINHNT
      *
      * @param url   API url
      * @param data  data to send
@@ -77,7 +77,7 @@ public class API{
         return readResponse(conn);
     }
 
-    /** SONNH
+    /** LINHNT
      * @param methods allowed method (POST, PATCH ...)
      * @deprecated only worked with java <= 11
      */
@@ -103,7 +103,7 @@ public class API{
 
     /**
      * Prepare connection to call
-     * SONNH
+     * LINHNT
      * @param url    api url
      * @param method POST, GET, PATCH ...
      * @param token  secret token
@@ -125,7 +125,7 @@ public class API{
 
     }
 
-    /** SONNH
+    /** LINHNT
      * Read response from HttpConnection after request
      * @param conn the connection
      * @return response string
