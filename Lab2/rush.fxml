@@ -75,7 +75,7 @@
                         <Insets bottom="20.0" />
                      </VBox.margin>
                   </DatePicker>
-                  <TextArea prefHeight="200.0" prefWidth="200.0" text="SONNH" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="LINHNT" />
                </children>
             </VBox>
          </children>
